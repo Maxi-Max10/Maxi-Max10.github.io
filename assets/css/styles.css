@@ -127,7 +127,7 @@ img {
   top: 0;
   left: 0;
   z-index: var(--z-fixed);
-  background-color: #ffffff;
+  background-color: #939393;
   box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
 }
 
@@ -374,7 +374,7 @@ img {
   width: 75%;
 }
 
-.skills__sqlite {
+.skills__php {
   width: 60%;
 }
 
