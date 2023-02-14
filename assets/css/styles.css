@@ -1,5 +1,31 @@
 /*===== GOOGLE FONTS =====*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+@import url(https://fonts.googleapis.com/css?family=Wire+One);
+
+.log {
+  position: relative;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-size: 2em;
+  letter-spacing: 4px;
+  overflow: hidden;
+  background: linear-gradient(90deg, #000, #fff, #000);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 3s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+  100% {
+    background-position: 500%;
+  }
+}
+
 /*===== VARIABLES CSS =====*/
 :root {
   --header-height: 3rem;
@@ -73,11 +99,10 @@ a {
   text-decoration: none;
 }
 
-/* LOGO */
+ /*LOGO */
 span {
   color: #477ec2;
 }
-
 
 
 img {
@@ -149,7 +174,7 @@ img {
     height: 100%;
     padding: 2rem;
     background-color: rgba(16 18 27 / 40%);
-    backdrop-filter: blur(5px) ;;/*arreglo*/
+    backdrop-filter: blur(5px) ;/*arreglo*/
     transition: .5s;
   }
 }
@@ -433,8 +458,8 @@ img {
 
 /* ===== FOOTER =====*/
 .footer {
-  background-color: var(--second-color);
-  color: #fff;
+  background-color: rgba(16 18 27 / 40%);
+  backdrop-filter: blur(5px) ;/*arreglo*/
   text-align: center;
   font-weight: var(--font-semi);
   padding: 2rem 0;
